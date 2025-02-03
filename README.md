@@ -17,8 +17,9 @@ Untuk menjalankan proyek ini, ikuti langkah-langkah di bawah ini:
 1. **Clone repositori ini:**
 
     ```bash
-    git clone https://github.com/nama-pengguna/nama-repo.git
-    cd nama-repo
+    git clone https://github.com/Mekazu0/belajar-cloding.github.io.git
+    cd belajar-cloding.github.io
+git checkout Belajar-cloding
     ```
 
 2. **Buka file `index.html` di browser:**
