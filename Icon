@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Awesome Icons Example</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .icon-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .icon-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100px;
+            margin-bottom: 20px;
+        }
+        .icon {
+            font-size: 36px;
+            color: #007bff;
+            margin-bottom: 5px;
+        }
+        .icon-label {
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="header">
+        <i class="fas fa-star icon"></i> Font Awesome Icons Example
+    </h1>
+    <div class="icon-container">
+        <!-- Social Media Icons -->
+        <div class="icon-item"><i class="fab fa-facebook icon"></i><div class="icon-label">Facebook</div></div>
+        <div class="icon-item"><i class="fab fa-twitter icon"></i><div class="icon-label">Twitter</div></div>
+        <div class="icon-item"><i class="fab fa-instagram icon"></i><div class="icon-label">Instagram</div></div>
+        <div class="icon-item"><i class="fab fa-linkedin icon"></i><div class="icon-label">LinkedIn</div></div>
+        <div class="icon-item"><i class="fab fa-youtube icon"></i><div class="icon-label">YouTube</div></div>
+        <div class="icon-item"><i class="fab fa-whatsapp icon"></i><div class="icon-label">WhatsApp</div></div>
+        <div class="icon-item"><i class="fab fa-pinterest icon"></i><div class="icon-label">Pinterest</div></div>
+        <div class="icon-item"><i class="fab fa-snapchat icon"></i><div class="icon-label">Snapchat</div></div>
+        <div class="icon-item"><i class="fab fa-tiktok icon"></i><div class="icon-label">TikTok</div></div>
+        <div class="icon-item"><i class="fab fa-reddit icon"></i><div class="icon-label">Reddit</div></div>
+
+        <!-- Technology Icons -->
+        <div class="icon-item"><i class="fab fa-apple icon"></i><div class="icon-label">Apple</div></div>
+        <div class="icon-item"><i class="fab fa-android icon"></i><div class="icon-label">Android</div></div>
+        <div class="icon-item"><i class="fab fa-windows icon"></i><div class="icon-label">Windows</div></div>
+        <div class="icon-item"><i class="fab fa-linux icon"></i><div class="icon-label">Linux</div></div>
+        <div class="icon-item"><i class="fab fa-java icon"></i><div class="icon-label">Java</div></div>
+        <div class="icon-item"><i class="fab fa-python icon"></i><div class="icon-label">Python</div></div>
+        <div class="icon-item"><i class="fab fa-js icon"></i><div class="icon-label">JavaScript</div></div>
+        <div class="icon-item"><i class="fab fa-html5 icon"></i><div class="icon-label">HTML5</div></div>
+        <div class="icon-item"><i class="fab fa-css3-alt icon"></i><div class="icon-label">CSS3</div></div>
+        <div class="icon-item"><i class="fab fa-php icon"></i><div class="icon-label">PHP</div></div>
+
+        <!-- Communication Icons -->
+        <div class="icon-item"><i class="fas fa-envelope icon"></i><div class="icon-label">Email</div></div>
+        <div class="icon-item"><i class="fas fa-phone icon"></i><div class="icon-label">Phone</div></div>
+        <div class="icon-item"><i class="fas fa-comments icon"></i><div class="icon-label">Comments</div></div>
+        <div class="icon-item"><i class="fas fa-sms icon"></i><div class="icon-label">SMS</div></div>
+        <div class="icon-item"><i class="fas fa-video icon"></i><div class="icon-label">Video</div></div>
+        <div class="icon-item"><i class="fas fa-microphone icon"></i><div class="icon-label">Microphone</div></div>
+        <div class="icon-item"><i class="fas fa-headphones icon"></i><div class="icon-label">Headphones</div></div>
+        <div class="icon-item"><i class="fas fa-broadcast-tower icon"></i><div class="icon-label">Broadcast</div></div>
+        <div class="icon-item"><i class="fas fa-wifi icon"></i><div class="icon-label">WiFi</div></div>
+        <div class="icon-item"><i class="fas fa-satellite-dish icon"></i><div class="icon-label">Satellite</div></div>
+
+        <!-- Business Icons -->
+        <div class="icon-item"><i class="fas fa-briefcase icon"></i><div class="icon-label">Briefcase</div></div>
+        <div class="icon-item"><i class="fas fa-chart-line icon"></i><div class="icon-label">Chart Line</div></div>
+        <div class="icon-item"><i class="fas fa-money-bill-wave icon"></i><div class="icon-label">Money</div></div>
+        <div class="icon-item"><i class="fas fa-handshake icon"></i><div class="icon-label">Handshake</div></div>
+        <div class="icon-item"><i class="fas fa-file-invoice-dollar icon"></i><div class="icon-label">Invoice</div></div>
+        <div class="icon-item"><i class="fas fa-clipboard icon"></i><div class="icon-label">Clipboard</div></div>
+        <div class="icon-item"><i class="fas fa-folder-open icon"></i><div class="icon-label">Folder Open</div></div>
+        <div class="icon-item"><i class="fas fa-calendar-alt icon"></i><div class="icon-label">Calendar</div></div>
+        <div class="icon-item"><i class="fas fa-users icon"></i><div class="icon-label">Users</div></div>
+        <div class="icon-item"><i class="fas fa-user-tie icon"></i><div class="icon-label">User Tie</div></div>
+
+        <!-- Education Icons -->
+        <div class="icon-item"><i class="fas fa-graduation-cap icon"></i><div class="icon-label">Graduation Cap</div></div>
+        <div class="icon-item"><i class="fas fa-book icon"></i><div class="icon-label">Book</div></div>
+        <div class="icon-item"><i class="fas fa-pencil-alt icon"></i><div class="icon-label">Pencil</div></div>
+        <div class="icon-item"><i class="fas fa-chalkboard-teacher icon"></i><div class="icon-label">Teacher</div></div>
+        <div class="icon-item"><i class="fas fa-school icon"></i><div class="icon-label">School</div></div>
+        <div class="icon-item"><i class="fas fa-microscope icon"></i><div class="icon-label">Microscope</div></div>
+        <div class="icon-item"><i class="fas fa-flask icon"></i><div class="icon-label">Flask</div></div>
+        <div class="icon-item"><i class="fas fa-globe icon"></i><div class="icon-label">Globe</div></div>
+        <div class="icon-item"><i class="fas fa-dna icon"></i><div class="icon-label">DNA</div></div>
+        <div class="icon-item"><i class="fas fa-chalkboard icon"></i><div class="icon-label">Chalkboard</div></div>
+
+        <!-- Health Icons -->
+        <div class="icon-item"><i class="fas fa-heart icon"></i><div class="icon-label">Heart</div></div>
+        <div class="icon-item"><i class="fas fa-hospital icon"></i><div class="icon-label">Hospital</div></div>
+        <div class="icon-item"><i class="fas fa-stethoscope icon"></i><div class="icon-label">Stethoscope</div></div>
+        <div class="icon-item"><i class="fas fa-syringe icon"></i><div class="icon-label">Syringe</div></div>
+        <div class="icon-item"><i class="fas fa-pills icon"></i><div class="icon-label">Pills</div></div>
+        <div class="icon-item"><i class="fas fa-band-aid icon"></i><div class="icon-label">Band Aid</div></div>
+        <div class="icon-item"><i class="fas fa-x-ray icon"></i><div class="icon-label">X-Ray</div></div>
+        <div class="icon-item"><i class="fas fa-user-md icon"></i><div class="icon-label">Doctor</div></div>
+        <div class="icon-item"><i class="fas fa-ambulance icon"></i><div class="icon-label">Ambulance</div></div>
+        <div class="icon-item"><i class="fas fa-baby icon"></i><div class="icon-label">Baby</div></div>
+
+        <!-- Travel Icons -->
+        <div class="icon-item"><i class="fas fa-plane icon"></i><div class="icon-label">Plane</div></div>
+        <div class="icon-item"><i class="fas fa-hotel icon"></i><div class="icon-label">Hotel</div></div>
+        <div class="icon-item"><i class="fas fa-passport icon"></i><div class="icon-label">Passport</div></div>
+        <div class="icon-item"><i class="fas fa-luggage-cart icon"></i><div class="icon-label">Luggage</div></div>
+        <div class="icon-item"><i class="fas fa-map-marked-alt icon"></i><div class="icon-label">Map</div></div>
+        <div class="icon-item"><i class="fas fa-umbrella-beach icon"></i><div class="icon-label">Beach</div></div>
+        <div class="icon-item"><i class="fas fa-ship icon"></i><div class="icon-label">Ship</div></div>
+        <div class="icon-item"><i class="fas fa-bus icon"></i><div class="icon-label">Bus</div></div>
+        <div class="icon-item"><i class="fas fa-taxi icon"></i><div class="icon-label">Taxi</div></div>
+        <div class="icon-item"><i class="fas fa-bicycle icon"></i><div class="icon-label">Bicycle</div></div>
+
+        <!-- Food Icons -->
+        <div class="icon-item"><i class="fas fa-pizza-slice icon"></i><div class="icon-label">Pizza</div></div>
+        <div class="icon-item"><i class="fas fa-hamburger icon"></i><div class="icon-label">Hamburger</div></div>
+        <div class="icon-item"><i class="fas fa-ice-cream icon"></i><div class="icon-label">Ice Cream</div></div>
+        <div class="icon-item"><i class="fas fa-coffee icon"></i><div class="icon-label">Coffee</div></div>
+        <div class="icon-item"><i class="fas fa-beer icon"></i><div class="icon-label">Beer</div></div>
+        <div class="icon-item"><i class="fas fa-cocktail icon"></i><div class="icon-label">Cocktail</div></div>
+        <div class="icon-item"><i class="fas fa-utensils icon"></i><div class="icon-label">Utensils</div></div>
+        <div class="icon-item"><i class="fas fa-apple-alt icon"></i><div class="icon-label">Apple</div></div>
+        <div class="icon-item"><i class="fas fa-bacon icon"></i><div class="icon-label">Bacon</div></div>
+        <div class="icon-item"><i class="fas fa-bread-slice icon"></i><div class="icon-label">Bread</div></div>
+
+        <!-- Nature Icons -->
+        <div class="icon-item"><i class="fas fa-tree icon"></i><div class="icon-label">Tree</div></div>
+        <div class="icon-item"><i class="fas fa-leaf icon"></i><div class="icon-label">Leaf</div></div>
+        <div class="icon-item"><i class="fas fa-water icon"></i><div class="icon-label">Water</div></div>
+        <div class="icon-item"><i class="fas fa-mountain icon"></i><div class="icon-label">Mountain</div></div>
+        <div class="icon-item"><i class="fas fa-fire icon"></i><div class="icon-label">Fire</div></div>
+        <div class="icon-item"><i class="fas fa-wind icon"></i><div class="icon-label">Wind</div></div>
+        <div class="icon-item"><i class="fas fa-sun icon"></i><div class="icon-label">Sun</div></div>
+        <div class="icon-item"><i class="fas fa-cloud icon"></i><div class="icon-label">Cloud</div></div>
+        <div class="icon-item"><i class="fas fa-snowflake icon"></i><div class="icon-label">Snowflake</div></div>
+        <div class="icon-item"><i class="fas fa-rainbow icon"></i><div class="icon-label">Rainbow</div></div>
+
+        <!-- Animal Icons -->
+        <div class="icon-item"><i class="fas fa-dog icon"></i><div class="icon-label">Dog</div></div>
+        <div class="icon-item"><i class="fas fa-cat icon"></i><div class="icon-label">Cat</div></div>
+        <div class="icon-item"><i class="fas fa-fish icon"></i><div class="icon-label">Fish</div></div>
+        <div class="icon-item"><i class="fas fa-horse icon"></i><div class="icon-label">Horse</div></div>
+        <div class="icon-item"><i class="fas fa-spider icon"></i><div class="icon-label">Spider</div></div>
+        <div class="icon-item"><i class="fas fa-dragon icon"></i><div class="icon-label">Dragon</div></div>
+        <div class="icon-item"><i class="fas fa-frog icon"></i><div class="icon-label">Frog</div></div>
+        <div class="icon-item"><i class="fas fa-crow icon"></i><div class="icon-label">Crow</div></div>
+        <div class="icon-item"><i class="fas fa-dove icon"></i><div class="icon-label">Dove</div></div>
+        <div class="icon-item"><i class="fas fa-otter icon"></i><div class="icon-label">Otter</div></div>
+
+        <!-- Transportation Icons -->
+        <div class="icon-item"><i class="fas fa-car icon"></i><div class="icon-label">Car</div></div>
+        <div class="icon-item"><i class="fas fa-motorcycle icon"></i><div class="icon-label">Motorcycle</div></div>
+        <div class="icon-item"><i class="fas fa-truck icon"></i><div class="icon-label">Truck</div></div>
+        <div class="icon-item"><i class="fas fa-bus icon"></i><div class="icon-label">Bus</div></div>
+        <div class="icon-item"><i class="fas fa-subway icon"></i><div class="icon-label">Subway</div></div>
+        <div class="icon-item"><i class="fas fa-train icon"></i><div class="icon-label">Train</div></div>
+        <div class="icon-item"><i class="fas fa-helicopter icon"></i><div class="icon-label">Helicopter</div></div>
+        <div class="icon-item"><i class="fas fa-rocket icon"></i><div class="icon-label">Rocket</div></div>
+        <div class="icon-item"><i class="fas fa-ship icon"></i><div class="icon-label">Ship</div></div>
+        <div class="icon-item"><i class="fas fa-plane icon"></i><div class="icon-label">Plane</div></div>
+
+        <!-- Music Icons -->
+        <div class="icon-item"><i class="fas fa-music icon"></i><div class="icon-label">Music</div></div>
+        <div class="icon-item"><i class="fas fa-guitar icon"></i><div class="icon-label">Guitar</div></div>
+        <div class="icon-item"><i class="fas fa-drum icon"></i><div class="icon-label">Drum</div></div>
+        <div class="icon-item"><i class="fas fa-saxophone icon"></i><div class="icon-label">Saxophone</div></div>
+        <div class="icon-item"><i class="fas fa-microphone icon"></i><div class="icon-label">Microphone</div></div>
+        <div class="icon-item"><i<div class="icon-item"><i class="fas fa-headphones icon"></i><div class="icon-label">Headphones</div></div>
+        <div class="icon-item"><i class="fas fa-record-vinyl icon"></i><div class="icon-label">Vinyl</div></div>
+        <div class="icon-item"><i class="fas fa-music icon"></i><div class="icon-label">Music</div></div>
+        <div class="icon-item"><i class="fas fa-compact-disc icon"></i><div class="icon-label">Disc</div></div>
+
+        <!-- Weather Icons -->
+        <div class="icon-item"><i class="fas fa-sun icon"></i><div class="icon-label">Sunny</div></div>
+        <div class="icon-item"><i class="fas fa-cloud icon"></i><div class="icon-label">Cloudy</div></div>
+        <div class="icon-item"><i class="fas fa-rain icon"></i><div class="icon-label">Rain</div></div>
+        <div class="icon-item"><i class="fas fa-snowflake icon"></i><div class="icon-label">Snow</div></div>
+        <div class="icon-item"><i class="fas fa-wind icon"></i><div class="icon-label">Windy</div></div>
+        <div class="icon-item"><i class="fas fa-bolt icon"></i><div class="icon-label">Storm</div></div>
+        <div class="icon-item"><i class="fas fa-umbrella icon"></i><div class="icon-label">Umbrella</div></div>
+        
+        <!-- Miscellaneous Icons -->
+        <div class="icon-item"><i class="fas fa-star icon"></i><div class="icon-label">Star</div></div>
+        <div class="icon-item"><i class="fas fa-heart icon"></i><div class="icon-label">Favorite</div></div>
+        <div class="icon-item"><i class="fas fa-thumbs-up icon"></i><div class="icon-label">Like</div></div>
+        <div class="icon-item"><i class="fas fa-thumbs-down icon"></i><div class="icon-label">Dislike</div></div>
+        <div class="icon-item"><i class="fas fa-eye icon"></i><div class="icon-label">View</div></div>
+        <div class="icon-item"><i class="fas fa-hourglass-half icon"></i><div class="icon-label">Loading</div></div>
+        <div class="icon-item"><i class="fas fa-cog icon"></i><div class="icon-label">Settings</div></div>
+        <div class="icon-item"><i class="fas fa-lock icon"></i><div class="icon-label">Lock</div></div>
+        <div class="icon-item"><i class="fas fa-unlock icon"></i><div class="icon-label">Unlock</div></div>
+        <div class="icon-item"><i class="fas fa-bell icon"></i><div class="icon-label">Notification</div></div>
+    </div>
+</body>
+</html>
