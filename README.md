@@ -177,28 +177,6 @@
         #cookie-consent-banner button:hover {
             background-color: #45a049;
         }
-
-        /* Media Queries untuk Responsivitas */
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 2rem;
-            }
-        }
-
-        @media (min-width: 601px) {
-            .menu-icon {
-                margin-top: 2rem;
-            }
-        }
-
-        @media (min-width: 900px) {
-            header h1 {
-                font-size: 2.5rem;
-            }
-            .menu-icon {
-                margin-top: 3rem;
-            }
-        }
     </style>
 </head>
 <body>
