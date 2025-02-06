@@ -19,7 +19,7 @@ Untuk menjalankan proyek ini, ikuti langkah-langkah di bawah ini:
     ```bash
     git clone https://github.com/Mekazu0/belajar-cloding.github.io.git
     cd belajar-cloding.github.io
-     git checkout Belajar-cloding
+     
 
     ```
 
