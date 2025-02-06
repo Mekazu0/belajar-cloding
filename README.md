@@ -58,4 +58,4 @@ Kontribusi sangat diterima! Jika Anda memiliki saran atau perbaikan, harap buka 
 
 ## Lisensi
 
-Proyek ini dilisensikan di bawah MIT License. Lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut.
+Proyek ini dilisensikan di bawah MIT License. Lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut. 
